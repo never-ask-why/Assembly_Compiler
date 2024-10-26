@@ -3,8 +3,12 @@
 # Assembly_Compiler
 This program is an compilation helper and debugging helper for assembly codes written For Arm and x86.
 
+![image](https://github.com/user-attachments/assets/e890804b-85b9-4017-bc72-0d61044f7e78)
+
+
+
 ## Options:
-**python3 assembly_compiler.py [-d] [-x] [-a] input_file**</br>
+**python3 Assembly_Compiler.py [-d] [-x] [-a] input_file**</br>
 </br>
   **-h, --help**   show this help message and exit</br>
   **-d, --debug**  Enable debugging (Ex: launches gdb debugger)</br>
