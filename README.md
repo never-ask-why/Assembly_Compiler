@@ -3,7 +3,8 @@
 # Assembly_Compiler
 This program is an compilation helper and debugging helper for assembly codes written For Arm and x86.
 
-![image](https://github.com/user-attachments/assets/e890804b-85b9-4017-bc72-0d61044f7e78)
+![image](https://github.com/user-attachments/assets/4e2a51e4-4406-4501-9565-af5fb868c075)
+
 
 
 
