@@ -1,10 +1,20 @@
+#!/usr/bin/python3
+
 #About this program
 ''' 
 This program is an compilation helper for assembly code which compiles assembly code of arm and x86
 -x option capable of compiling 32 and 64 bit versions
 -a option will compile arm assembly
 -d is enabled it will start debugging the program after compiling and executing
+'''
 
+banner = '''
+ __    __     _                   
+/ / /\ \ \___| |__  ___  ___  ___ 
+\ \/  \/ / _ \ '_ \/ __|/ _ \/ __|
+ \  /\  /  __/ |_) \__ \  __/ (__ 
+  \/  \/ \___|_.__/|___/\___|\___|
+                                  
 '''
 
 import argparse
@@ -144,6 +154,7 @@ class X86:
             exit(1)
 
 if __name__ == "__main__":
+    print(banner)
     parser = argparse.ArgumentParser(description="Assemble and link assembly files.")
     parser.add_argument("input_file", help="Input file path")
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debugging")
